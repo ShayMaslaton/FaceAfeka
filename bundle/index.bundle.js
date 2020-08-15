@@ -6906,6 +6906,7 @@ function (_Component) {
     _this = news_feed_post_possibleConstructorReturn(this, news_feed_post_getPrototypeOf(NewsFeedPost).call(this, props));
     console.log("this.props");
     console.log(_this.props);
+    _this.flag = false;
     _this.state = {
       id: _this.props.post._id,
       profilepic: _this.props.user.profilepic,
@@ -7029,20 +7030,23 @@ function (_Component) {
       return Object(helperMethods["d" /* getItemsArrayFromEnum */])(enums["d" /* PostStatOptionsEnum */]).map(function (option) {
         return react_default.a.createElement(post_option, {
           onClick: function onClick() {
-            var optionName = option.name.toLowerCase();
+            if (_this3.flag == false) {
+              _this3.flag = true;
+              var optionName = option.name.toLowerCase();
 
-            var currentStats = _objectSpread({}, _this3.state.stats);
+              var currentStats = _objectSpread({}, _this3.state.stats);
 
-            currentStats[optionName] = currentStats[optionName] + 1;
-            axiosSession["a" /* default */].patch("".concat(server_endpoints["a" /* APIPostPathsEndpointsEnum */].Posts, "/").concat(server_endpoints["a" /* APIPostPathsEndpointsEnum */].UpdateStats, "/").concat(_this3.state.id, "/").concat(optionName, "/").concat(currentStats[optionName])).then(function (result) {
-              console.log(result);
-            })["catch"](function (error) {
-              console.log(error);
-            });
+              currentStats[optionName] = currentStats[optionName] + 1;
+              axiosSession["a" /* default */].patch("".concat(server_endpoints["a" /* APIPostPathsEndpointsEnum */].Posts, "/").concat(server_endpoints["a" /* APIPostPathsEndpointsEnum */].UpdateStats, "/").concat(_this3.state.id, "/").concat(optionName, "/").concat(currentStats[optionName])).then(function (result) {
+                console.log(result);
+              })["catch"](function (error) {
+                console.log(error);
+              });
 
-            _this3.setState({
-              stats: currentStats
-            });
+              _this3.setState({
+                stats: currentStats
+              });
+            }
           }
         }, react_default.a.createElement(option.svg, null));
       });

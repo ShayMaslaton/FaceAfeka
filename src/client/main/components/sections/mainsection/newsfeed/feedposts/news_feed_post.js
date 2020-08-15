@@ -12,6 +12,7 @@ class NewsFeedPost extends Component {
     super( props );
     console.log("this.props")
     console.log(this.props)
+    this.flag = false
     this.state = {
       id:this.props.post._id,
       profilepic: this.props.user.profilepic,
@@ -136,17 +137,19 @@ class NewsFeedPost extends Component {
     return getItemsArrayFromEnum(PostStatOptionsEnum).map( (option) => {
       return(
         <PostOption onClick = { () => {
-          const optionName = option.name.toLowerCase();
-          const currentStats = { ...this.state.stats };
-          currentStats[optionName] = currentStats[optionName] + 1;
-          axiosFetch.patch(`${PostPaths.Posts}/${PostPaths.UpdateStats}/${this.state.id}/${optionName}/${currentStats[optionName]}`)
+          if(this.flag == false) {
+            this.flag = true;
+            const optionName = option.name.toLowerCase();
+            const currentStats = { ...this.state.stats };
+            currentStats[optionName] = currentStats[optionName] + 1;
+            axiosFetch.patch(`${PostPaths.Posts}/${PostPaths.UpdateStats}/${this.state.id}/${optionName}/${currentStats[optionName]}`)
               .then((result) => {
                 console.log(result);
               }).catch((error) => {
                 console.log(error);
               });
           this.setState( { stats: currentStats } ); 
-          
+            }
         } 
           } >
           <option.svg />
