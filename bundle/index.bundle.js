@@ -369,8 +369,8 @@ var InputTypesEnum = {
   }
 };
 var CloudinaryFieldsEnum = {
-  Endpoint: 'https://api.cloudinary.com/v1_1/yossisaadi/image/upload',
-  UploadPreset: 'cldnry_facefeka'
+  Endpoint: 'https://api.cloudinary.com/v1_1/davidazulay/image/upload',
+  UploadPreset: 'faceafeka'
 };
 
 /***/ }),

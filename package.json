@@ -37,17 +37,17 @@
     },
     "scripts": {
         "start": "node src/server/server.js",
-        "dev": "npm run build && node src/server/server.js",
+        "dev": "npm run build && nodemon src/server/server.js",
         "build": "webpack -p --devtool source-map --progress --colors --config webpack.config.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/david3azulay/FaceAfeka.git"
+        "url": "git+https://github.com/ShayMaslaton/FaceAfeka.git"
     },
-    "author": "",
+    "author": "David Azulay & Shay Maslaton",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/ShayMaslaton/FaceFeka"
+        "url": "https://github.com/ShayMaslaton/FaceAfeka"
     },
-    "homepage": "https://github.com/ShayMaslaton/FaceFeka"
+    "homepage": "https://github.com/ShayMaslaton/FaceAfeka#README"
 }
