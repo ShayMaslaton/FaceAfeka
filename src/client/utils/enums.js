@@ -14,10 +14,6 @@ export const RightNavBarPagesEnum = {
         svg: ProfileSVG,
         href: "http://localhost:8000/index.html"
     },
-    Friends: {
-        name: 'חברים',
-        svg: FriendsSVG
-    },
     Logout: {
         name: 'התנתק',
         svg: LogoutSVG

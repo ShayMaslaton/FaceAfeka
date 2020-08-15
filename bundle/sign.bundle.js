@@ -111,7 +111,7 @@ __webpack_require__.d(__webpack_exports__, "b", function() { return /* binding *
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ CloudinaryFieldsEnum; });
 
 // EXTERNAL MODULE: ./src/client/main/components/svgs/nav_bar_svgs.js + 5 modules
-var nav_bar_svgs = __webpack_require__(18);
+var nav_bar_svgs = __webpack_require__(31);
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(0);
@@ -294,21 +294,17 @@ var comment_icon_SvgCommentIcon = function SvgCommentIcon(props) {
 var RightNavBarPagesEnum = {
   Home: {
     name: 'בית',
-    svg: nav_bar_svgs["b" /* HomeSVG */],
+    svg: nav_bar_svgs["a" /* HomeSVG */],
     href: ""
   },
   Profile: {
     name: 'משחק',
-    svg: nav_bar_svgs["e" /* ProfileSVG */],
+    svg: nav_bar_svgs["d" /* ProfileSVG */],
     href: "http://localhost:8000/index.html"
-  },
-  Friends: {
-    name: 'חברים',
-    svg: nav_bar_svgs["a" /* FriendsSVG */]
   },
   Logout: {
     name: 'התנתק',
-    svg: nav_bar_svgs["d" /* LogoutSVG */]
+    svg: nav_bar_svgs["c" /* LogoutSVG */]
   }
 };
 var NewPostOptionsEnum = {
@@ -1056,138 +1052,6 @@ addToUnscopables('entries');
 
 /***/ }),
 /* 18 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "c", function() { return /* reexport */ logo["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "f", function() { return /* reexport */ search; });
-__webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ home; });
-__webpack_require__.d(__webpack_exports__, "e", function() { return /* reexport */ profile; });
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ friends; });
-__webpack_require__.d(__webpack_exports__, "d", function() { return /* reexport */ logout; });
-
-// EXTERNAL MODULE: ./resources/img/logo/logo.svg
-var logo = __webpack_require__(68);
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(0);
-var react_default = /*#__PURE__*/__webpack_require__.n(react);
-
-// CONCATENATED MODULE: ./resources/img/navbar/search.svg
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-
-
-var _ref =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M990 900.4L903.3 987 695.9 779.4l86.6-86.5L990 900.4zM745 380.5c0 203-164.5 367.5-367.5 367.5S10 583.5 10 380.5 174.5 13 377.5 13C580.4 13 745 177.5 745 380.5zm-122.5 0c0-135.3-109.7-245-245-245s-245 109.7-245 245 109.7 245 245 245 245-109.7 245-245z"
-});
-
-var search_SvgSearch = function SvgSearch(props) {
-  return react_default.a.createElement("svg", _extends({
-    viewBox: "0 0 1000 1000"
-  }, props), _ref);
-};
-
-/* harmony default export */ var search = (search_SvgSearch);
-// CONCATENATED MODULE: ./resources/img/navbar/home.svg
-function home_extends() { home_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return home_extends.apply(this, arguments); }
-
-
-
-var home_ref =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M481.62 28.39c-6.12 1.02-15.72 4.08-21.44 6.74-11.23 5.1-427.32 328.71-441.4 343.2-8.17 8.17-8.78 9.8-8.78 19.8 0 23.48 20.62 38.38 40.83 29.6 3.88-1.63 102.29-77.17 218.46-167.82 116.17-90.85 214.17-166.8 217.44-168.84 8.98-5.31 18.99-4.7 29.81 2.04 4.9 3.27 103.92 75.34 219.68 160.27 168.43 123.11 212.53 154.56 218.86 155.58 11.03 1.84 25.11-4.49 30.83-13.68 4.9-7.96 5.51-23.68 1.22-32.05-1.84-3.47-31.44-26.34-77.58-60.23l-74.72-54.51v-71.46c0-80.44-.41-83.3-13.07-88.61-5.51-2.45-17.15-3.06-50.22-3.06-45.73 0-54.51 1.43-59.01 9.8-1.22 2.45-2.24 16.13-2.24 32.05 0 23.48-.41 27.77-2.86 26.95-1.63-.61-37.77-26.54-80.24-57.78-42.47-31.03-81.67-58.59-87.38-61.25-10-4.7-31.85-9.19-41.85-8.78-2.86.21-10.21 1.02-16.34 2.04z"
-});
-
-var _ref2 =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M482.44 191.11c-6.13 2.25-21.64 12.05-37.77 23.89-59.01 43.69-344.02 256.84-348.31 260.51l-4.7 3.88V690.5c0 134.14.82 214.99 2.04 221.93 4.49 23.89 18.78 42.67 40.42 53.29l13.68 6.74 107.6.61 107.8.61.41-167.41c.61-165.37.61-167.42 4.9-172.93 2.25-3.06 6.74-7.55 9.8-9.8 5.51-4.08 8.17-4.29 109.02-4.9 115.56-.61 112.7-.82 122.3 13.68l4.7 6.94V973.47l119.03-.41 118.82-.61 11.64-5.51c21.85-10.21 37.97-30.83 42.47-54.51 2.24-12.25 2.86-392.4.61-419.76l-1.22-16.33-188.45-140.88c-129.85-96.98-191.51-141.89-198.24-144.34-12.46-4.5-23.49-4.5-36.55-.01zm218.25 158.64l185.18 138.63-.41 214.58-.61 214.37-5.1 9.19c-6.74 11.84-19.6 21.44-32.67 24.3-6.74 1.43-45.73 2.24-110.25 2.24H636.79V798.3c0-171.7.41-165.58-13.47-181.71-3.88-4.49-11.64-10.62-17.56-13.48l-10.62-5.31h-210.5l-10.21 4.9c-12.25 5.92-21.85 15.52-27.36 27.77-4.08 8.98-4.29 12.66-4.29 165.78v156.8h-89.83c-56.96 0-93.51-.82-100.04-2.24-13.07-2.86-25.93-12.46-32.67-24.3l-5.1-9.19-.61-214.37-.41-214.58 179.05-133.73c98.61-73.7 182.93-136.59 187.42-139.44 7.15-4.9 9.8-5.51 21.44-4.9l13.27.61 185.39 138.84z"
-});
-
-var home_SvgHome = function SvgHome(props) {
-  return react_default.a.createElement("svg", home_extends({
-    viewBox: "0 0 1000 1000"
-  }, props), home_ref, _ref2);
-};
-
-/* harmony default export */ var home = (home_SvgHome);
-// CONCATENATED MODULE: ./resources/img/navbar/profile.svg
-function profile_extends() { profile_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return profile_extends.apply(this, arguments); }
-
-
-
-var profile_ref =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M500 10C229.4 10 10 229.4 10 500s219.4 490 490 490 490-219.4 490-490S770.6 10 500 10zm289.6 838.7c-46.5-1.7-144.9-17.2-187.9-113.6-11.4-25.6-12.6-46.8 0-61 15-17 33.8-62.7 40.7-101.7 2.8-15.5 40.2-20.8 40.7-61 18.4-20.1-.1-56.3 0-81.4.2-62.3 6.9-121.8-20.4-162.8-80.7-121.3-242.1-120.2-325.5 0-25.6 36.8-20.5 100.2-20.4 162.8 0 25.7-21.7 60.1 0 81.4 0 40.4 35.6 39 40.7 61 9.1 39.6 20.3 81.5 40.7 101.7 19.9 19.9 9 34.6 0 61-29.3 86.1-132.5 112-180.3 119.5-104.2-83-171.1-211-171.1-354.6 0-250.3 203-453.3 453.3-453.3S953.3 249.6 953.3 500c0 140.2-63.7 265.6-163.7 348.7z"
-});
-
-var profile_SvgProfile = function SvgProfile(props) {
-  return react_default.a.createElement("svg", profile_extends({
-    viewBox: "0 0 1000 1000"
-  }, props), profile_ref);
-};
-
-/* harmony default export */ var profile = (profile_SvgProfile);
-// CONCATENATED MODULE: ./resources/img/navbar/friends.svg
-function friends_extends() { friends_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return friends_extends.apply(this, arguments); }
-
-
-
-var friends_ref =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M950.71 74.31c-13.87 9.31-14.28 11.38-14.28 84.64v65.6l-30.21 63.75L876 352.03l-36 170.73-36.01 170.73.42 109.68c.62 103.89.83 110.1 4.55 115.47 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V695.55l34.14-162.85 34.35-162.87 31.46-65.81 31.46-65.81.62-74.5c.42-71.81.42-74.71-3.72-81.33-4.34-7.04-14.9-12.83-23.38-12.83-2.7 0-8.09 2.07-12.02 4.76zM212.13 139.5c-36.01 9.52-62.91 39.53-68.29 76.36-1.03 7.86-1.45 17.59-.62 21.73l1.03 7.66-62.08 31.04c-63.12 31.66-69.12 35.6-71.81 48.01-2.9 12.62 12.42 30.83 26.08 30.83 3.31 0 32.49-13.24 68.08-31.04l62.5-31.25 10.76 8.07c14.07 10.97 21.11 14.28 37.87 18.21 9.52 2.28 18.42 2.9 27.52 2.07l13.45-1.45 41.18 41.39 41.18 41.18-32.49 145.9L274 694.11l.62 109.27c.62 103.47.83 109.89 4.55 115.27 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V695.36l18.63-83.61c10.14-46.15 19.25-86.09 19.87-88.99 1.03-3.52 7.24 20.49 20.07 76.57l18.83 81.74 1.03 115.89c1.24 109.27 1.45 116.3 5.17 121.68 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V689.14l-32.9-147.76c-18.21-81.33-33.53-150.86-34.35-154.17-1.03-4.35-15.31-20.28-46.36-51.53-24.63-24.83-43.25-44.91-41.6-44.29 1.65.62 46.15 15.31 98.92 32.9l95.61 31.87 97.47-32.49 97.68-32.49 11.59 9.11c14.28 11.17 26.07 16.56 44.08 19.87 53.81 9.93 107.2-35.39 107.2-91.26 0-44.91-33.94-84.02-79.47-91.47-38.08-6.21-79.47 15.52-96.23 50.5-6.83 14.49-11.38 37.46-9.52 47.8l1.24 6.62-43.04 14.28c-23.59 7.86-44.29 14.69-45.73 15.31-1.86.62-1.24-2.69 1.86-10.14 16.76-42.63-3.1-94.37-44.29-114.65-37.87-18.83-78.64-12.42-107.82 16.97-25.87 25.66-34.35 66.43-20.69 98.92 1.66 4.14 2.69 8.07 2.28 8.48-.41.41-20.49-5.79-44.49-13.87l-43.87-14.69v-10.97c0-46.36-31.87-85.68-76.36-94.16-15.11-2.88-23.6-2.47-39.53 1.67zm45.32 56.91c10.76 7.04 16.76 18.83 16.76 32.49 0 25.66-22.35 43.46-48.63 38.49-14.49-2.9-29.8-22.14-30.01-38.08 0-13.87 10.76-30.84 23.8-36.84 9.73-4.54 27.94-2.68 38.08 3.94zm258.26-3.72c15.11 6.41 23.39 19.04 23.39 36.21 0 25.66-22.35 43.46-48.63 38.49-14.49-2.9-29.8-22.14-30.01-38.08 0-14.07 10.97-31.04 23.8-36.84 8.28-3.71 22.35-3.51 31.45.22zm264.89 0c15.11 6.42 23.38 19.04 23.38 36.22 0 25.66-22.35 43.46-48.63 38.49-14.49-2.9-29.8-22.14-30.01-38.08 0-14.07 10.97-31.04 23.8-36.84 8.29-3.72 22.36-3.52 31.46.21z"
-});
-
-var friends_ref2 =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M89.82 372.31c-3.93 2.48-8.69 8.07-10.76 12.21l-3.73 7.66 32.7 145.48 32.7 145.48 1.04 114.85c1.03 108.44 1.24 115.27 4.97 120.65 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V689.14l-33.95-152.51c-19.04-85.05-35.59-155-37.46-157.9-3.72-5.79-14.69-11.17-22.35-11.17-2.68 0-8.07 2.06-12 4.75zM620.43 371.69c-3.72 2.07-8.07 6-9.72 8.69-1.66 2.69-18.63 74.29-37.46 159.14L538.9 694.11l.62 109.27c.62 103.47.83 109.89 4.55 115.27 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V695.36l18.63-83.61c10.13-46.15 19.24-86.09 19.86-88.99 1.04-3.52 7.24 20.49 20.07 76.57l18.83 81.74 1.04 115.89c1.24 109.27 1.45 116.3 5.17 121.68 4.96 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V689.35l-33.94-152.72c-19.25-86.3-35.39-154.8-37.46-157.9-3.72-5.79-14.49-11.17-22.14-11.17-2.69 0-7.66 1.86-11.38 4.13z"
-});
-
-var friends_SvgFriends = function SvgFriends(props) {
-  return react_default.a.createElement("svg", friends_extends({
-    viewBox: "0 0 1000 1000"
-  }, props), friends_ref, friends_ref2);
-};
-
-/* harmony default export */ var friends = (friends_SvgFriends);
-// CONCATENATED MODULE: ./resources/img/navbar/logout.svg
-function logout_extends() { logout_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return logout_extends.apply(this, arguments); }
-
-
-
-var logout_ref =
-/*#__PURE__*/
-react_default.a.createElement("path", {
-  d: "M867.5 71.3H255c-67.7 0-122.5 54.8-122.5 122.5v122.5h61.3V193.8c0-33.8 27.4-61.3 61.3-61.3h612.5c33.8 0 61.3 27.4 61.3 61.3v612.5c0 33.8-27.4 61.3-61.3 61.3H255c-33.8 0-61.3-27.4-61.3-61.3V683.8h-61.3v122.5c0 67.7 54.8 122.5 122.5 122.5h612.5c67.7 0 122.5-54.8 122.5-122.5V193.8c.1-67.7-54.7-122.5-122.4-122.5zM541.1 691.2c-11.9 11.9-11.9 31.4 0 43.3 11.9 12 31.4 12 43.3 0l211.3-211.3c6.4-6.4 9.1-14.9 8.7-23.2.4-8.3-2.3-16.8-8.7-23.2L584.5 265.5c-12-12-31.4-12-43.3 0-11.9 11.9-11.9 31.3 0 43.3l160.6 160.5H40.6C23.7 469.4 10 483.1 10 500s13.7 30.6 30.6 30.6h661.1L541.1 691.2z"
-});
-
-var logout_SvgLogout = function SvgLogout(props) {
-  return react_default.a.createElement("svg", logout_extends({
-    viewBox: "0 0 1000 1000"
-  }, props), logout_ref);
-};
-
-/* harmony default export */ var logout = (logout_SvgLogout);
-// CONCATENATED MODULE: ./src/client/main/components/svgs/nav_bar_svgs.js
-
-
-
-
-
-
-
-
-/***/ }),
-/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1202,7 +1066,7 @@ var has = __webpack_require__(11);
 var isArray = __webpack_require__(63);
 var isObject = __webpack_require__(10);
 var anObject = __webpack_require__(16);
-var toObject = __webpack_require__(20);
+var toObject = __webpack_require__(19);
 var toIndexedObject = __webpack_require__(13);
 var toPrimitive = __webpack_require__(44);
 var createPropertyDescriptor = __webpack_require__(33);
@@ -1493,7 +1357,7 @@ hiddenKeys[HIDDEN] = true;
 
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var requireObjectCoercible = __webpack_require__(43);
@@ -1506,7 +1370,7 @@ module.exports = function (argument) {
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1563,7 +1427,7 @@ if (DESCRIPTORS && typeof NativeSymbol == 'function' && (!('description' in Nati
 
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var defineWellKnownSymbol = __webpack_require__(83);
@@ -1574,7 +1438,7 @@ defineWellKnownSymbol('iterator');
 
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
@@ -1589,7 +1453,7 @@ $({ target: 'Object', stat: true, sham: !DESCRIPTORS }, {
 
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
@@ -1604,12 +1468,12 @@ $({ target: 'Object', stat: true, forced: !DESCRIPTORS, sham: !DESCRIPTORS }, {
 
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
 var fails = __webpack_require__(7);
-var toObject = __webpack_require__(20);
+var toObject = __webpack_require__(19);
 var nativeGetPrototypeOf = __webpack_require__(64);
 var CORRECT_PROTOTYPE_GETTER = __webpack_require__(88);
 
@@ -1626,7 +1490,7 @@ $({ target: 'Object', stat: true, forced: FAILS_ON_PRIMITIVES, sham: !CORRECT_PR
 
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
@@ -1640,7 +1504,7 @@ $({ target: 'Object', stat: true }, {
 
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var redefine = __webpack_require__(39);
@@ -1656,7 +1520,7 @@ if (toString !== ObjectPrototype.toString) {
 
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1692,7 +1556,7 @@ defineIterator(String, 'String', function (iterated) {
 
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(3);
@@ -1729,7 +1593,7 @@ for (var COLLECTION_NAME in DOMIterables) {
 
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var DESCRIPTORS = __webpack_require__(6);
@@ -1757,7 +1621,7 @@ if (DESCRIPTORS && !(NAME in FunctionPrototype)) {
 
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1812,6 +1676,139 @@ var uploadImageToCloudinary = function uploadImageToCloudinary(file) {
 var getItemsArrayFromEnum = function getItemsArrayFromEnum(enumObject) {
   return Object.values(enumObject);
 };
+
+/***/ }),
+/* 31 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ logo["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "e", function() { return /* reexport */ search; });
+__webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ home; });
+__webpack_require__.d(__webpack_exports__, "d", function() { return /* reexport */ profile; });
+__webpack_require__.d(__webpack_exports__, "c", function() { return /* reexport */ logout; });
+
+// UNUSED EXPORTS: FriendsSVG
+
+// EXTERNAL MODULE: ./resources/img/logo/logo.svg
+var logo = __webpack_require__(68);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// CONCATENATED MODULE: ./resources/img/navbar/search.svg
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M990 900.4L903.3 987 695.9 779.4l86.6-86.5L990 900.4zM745 380.5c0 203-164.5 367.5-367.5 367.5S10 583.5 10 380.5 174.5 13 377.5 13C580.4 13 745 177.5 745 380.5zm-122.5 0c0-135.3-109.7-245-245-245s-245 109.7-245 245 109.7 245 245 245 245-109.7 245-245z"
+});
+
+var search_SvgSearch = function SvgSearch(props) {
+  return react_default.a.createElement("svg", _extends({
+    viewBox: "0 0 1000 1000"
+  }, props), _ref);
+};
+
+/* harmony default export */ var search = (search_SvgSearch);
+// CONCATENATED MODULE: ./resources/img/navbar/home.svg
+function home_extends() { home_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return home_extends.apply(this, arguments); }
+
+
+
+var home_ref =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M481.62 28.39c-6.12 1.02-15.72 4.08-21.44 6.74-11.23 5.1-427.32 328.71-441.4 343.2-8.17 8.17-8.78 9.8-8.78 19.8 0 23.48 20.62 38.38 40.83 29.6 3.88-1.63 102.29-77.17 218.46-167.82 116.17-90.85 214.17-166.8 217.44-168.84 8.98-5.31 18.99-4.7 29.81 2.04 4.9 3.27 103.92 75.34 219.68 160.27 168.43 123.11 212.53 154.56 218.86 155.58 11.03 1.84 25.11-4.49 30.83-13.68 4.9-7.96 5.51-23.68 1.22-32.05-1.84-3.47-31.44-26.34-77.58-60.23l-74.72-54.51v-71.46c0-80.44-.41-83.3-13.07-88.61-5.51-2.45-17.15-3.06-50.22-3.06-45.73 0-54.51 1.43-59.01 9.8-1.22 2.45-2.24 16.13-2.24 32.05 0 23.48-.41 27.77-2.86 26.95-1.63-.61-37.77-26.54-80.24-57.78-42.47-31.03-81.67-58.59-87.38-61.25-10-4.7-31.85-9.19-41.85-8.78-2.86.21-10.21 1.02-16.34 2.04z"
+});
+
+var _ref2 =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M482.44 191.11c-6.13 2.25-21.64 12.05-37.77 23.89-59.01 43.69-344.02 256.84-348.31 260.51l-4.7 3.88V690.5c0 134.14.82 214.99 2.04 221.93 4.49 23.89 18.78 42.67 40.42 53.29l13.68 6.74 107.6.61 107.8.61.41-167.41c.61-165.37.61-167.42 4.9-172.93 2.25-3.06 6.74-7.55 9.8-9.8 5.51-4.08 8.17-4.29 109.02-4.9 115.56-.61 112.7-.82 122.3 13.68l4.7 6.94V973.47l119.03-.41 118.82-.61 11.64-5.51c21.85-10.21 37.97-30.83 42.47-54.51 2.24-12.25 2.86-392.4.61-419.76l-1.22-16.33-188.45-140.88c-129.85-96.98-191.51-141.89-198.24-144.34-12.46-4.5-23.49-4.5-36.55-.01zm218.25 158.64l185.18 138.63-.41 214.58-.61 214.37-5.1 9.19c-6.74 11.84-19.6 21.44-32.67 24.3-6.74 1.43-45.73 2.24-110.25 2.24H636.79V798.3c0-171.7.41-165.58-13.47-181.71-3.88-4.49-11.64-10.62-17.56-13.48l-10.62-5.31h-210.5l-10.21 4.9c-12.25 5.92-21.85 15.52-27.36 27.77-4.08 8.98-4.29 12.66-4.29 165.78v156.8h-89.83c-56.96 0-93.51-.82-100.04-2.24-13.07-2.86-25.93-12.46-32.67-24.3l-5.1-9.19-.61-214.37-.41-214.58 179.05-133.73c98.61-73.7 182.93-136.59 187.42-139.44 7.15-4.9 9.8-5.51 21.44-4.9l13.27.61 185.39 138.84z"
+});
+
+var home_SvgHome = function SvgHome(props) {
+  return react_default.a.createElement("svg", home_extends({
+    viewBox: "0 0 1000 1000"
+  }, props), home_ref, _ref2);
+};
+
+/* harmony default export */ var home = (home_SvgHome);
+// CONCATENATED MODULE: ./resources/img/navbar/profile.svg
+function profile_extends() { profile_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return profile_extends.apply(this, arguments); }
+
+
+
+var profile_ref =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M500 10C229.4 10 10 229.4 10 500s219.4 490 490 490 490-219.4 490-490S770.6 10 500 10zm289.6 838.7c-46.5-1.7-144.9-17.2-187.9-113.6-11.4-25.6-12.6-46.8 0-61 15-17 33.8-62.7 40.7-101.7 2.8-15.5 40.2-20.8 40.7-61 18.4-20.1-.1-56.3 0-81.4.2-62.3 6.9-121.8-20.4-162.8-80.7-121.3-242.1-120.2-325.5 0-25.6 36.8-20.5 100.2-20.4 162.8 0 25.7-21.7 60.1 0 81.4 0 40.4 35.6 39 40.7 61 9.1 39.6 20.3 81.5 40.7 101.7 19.9 19.9 9 34.6 0 61-29.3 86.1-132.5 112-180.3 119.5-104.2-83-171.1-211-171.1-354.6 0-250.3 203-453.3 453.3-453.3S953.3 249.6 953.3 500c0 140.2-63.7 265.6-163.7 348.7z"
+});
+
+var profile_SvgProfile = function SvgProfile(props) {
+  return react_default.a.createElement("svg", profile_extends({
+    viewBox: "0 0 1000 1000"
+  }, props), profile_ref);
+};
+
+/* harmony default export */ var profile = (profile_SvgProfile);
+// CONCATENATED MODULE: ./resources/img/navbar/friends.svg
+function friends_extends() { friends_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return friends_extends.apply(this, arguments); }
+
+
+
+var friends_ref =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M950.71 74.31c-13.87 9.31-14.28 11.38-14.28 84.64v65.6l-30.21 63.75L876 352.03l-36 170.73-36.01 170.73.42 109.68c.62 103.89.83 110.1 4.55 115.47 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V695.55l34.14-162.85 34.35-162.87 31.46-65.81 31.46-65.81.62-74.5c.42-71.81.42-74.71-3.72-81.33-4.34-7.04-14.9-12.83-23.38-12.83-2.7 0-8.09 2.07-12.02 4.76zM212.13 139.5c-36.01 9.52-62.91 39.53-68.29 76.36-1.03 7.86-1.45 17.59-.62 21.73l1.03 7.66-62.08 31.04c-63.12 31.66-69.12 35.6-71.81 48.01-2.9 12.62 12.42 30.83 26.08 30.83 3.31 0 32.49-13.24 68.08-31.04l62.5-31.25 10.76 8.07c14.07 10.97 21.11 14.28 37.87 18.21 9.52 2.28 18.42 2.9 27.52 2.07l13.45-1.45 41.18 41.39 41.18 41.18-32.49 145.9L274 694.11l.62 109.27c.62 103.47.83 109.89 4.55 115.27 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V695.36l18.63-83.61c10.14-46.15 19.25-86.09 19.87-88.99 1.03-3.52 7.24 20.49 20.07 76.57l18.83 81.74 1.03 115.89c1.24 109.27 1.45 116.3 5.17 121.68 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V689.14l-32.9-147.76c-18.21-81.33-33.53-150.86-34.35-154.17-1.03-4.35-15.31-20.28-46.36-51.53-24.63-24.83-43.25-44.91-41.6-44.29 1.65.62 46.15 15.31 98.92 32.9l95.61 31.87 97.47-32.49 97.68-32.49 11.59 9.11c14.28 11.17 26.07 16.56 44.08 19.87 53.81 9.93 107.2-35.39 107.2-91.26 0-44.91-33.94-84.02-79.47-91.47-38.08-6.21-79.47 15.52-96.23 50.5-6.83 14.49-11.38 37.46-9.52 47.8l1.24 6.62-43.04 14.28c-23.59 7.86-44.29 14.69-45.73 15.31-1.86.62-1.24-2.69 1.86-10.14 16.76-42.63-3.1-94.37-44.29-114.65-37.87-18.83-78.64-12.42-107.82 16.97-25.87 25.66-34.35 66.43-20.69 98.92 1.66 4.14 2.69 8.07 2.28 8.48-.41.41-20.49-5.79-44.49-13.87l-43.87-14.69v-10.97c0-46.36-31.87-85.68-76.36-94.16-15.11-2.88-23.6-2.47-39.53 1.67zm45.32 56.91c10.76 7.04 16.76 18.83 16.76 32.49 0 25.66-22.35 43.46-48.63 38.49-14.49-2.9-29.8-22.14-30.01-38.08 0-13.87 10.76-30.84 23.8-36.84 9.73-4.54 27.94-2.68 38.08 3.94zm258.26-3.72c15.11 6.41 23.39 19.04 23.39 36.21 0 25.66-22.35 43.46-48.63 38.49-14.49-2.9-29.8-22.14-30.01-38.08 0-14.07 10.97-31.04 23.8-36.84 8.28-3.71 22.35-3.51 31.45.22zm264.89 0c15.11 6.42 23.38 19.04 23.38 36.22 0 25.66-22.35 43.46-48.63 38.49-14.49-2.9-29.8-22.14-30.01-38.08 0-14.07 10.97-31.04 23.8-36.84 8.29-3.72 22.36-3.52 31.46.21z"
+});
+
+var friends_ref2 =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M89.82 372.31c-3.93 2.48-8.69 8.07-10.76 12.21l-3.73 7.66 32.7 145.48 32.7 145.48 1.04 114.85c1.03 108.44 1.24 115.27 4.97 120.65 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V689.14l-33.95-152.51c-19.04-85.05-35.59-155-37.46-157.9-3.72-5.79-14.69-11.17-22.35-11.17-2.68 0-8.07 2.06-12 4.75zM620.43 371.69c-3.72 2.07-8.07 6-9.72 8.69-1.66 2.69-18.63 74.29-37.46 159.14L538.9 694.11l.62 109.27c.62 103.47.83 109.89 4.55 115.27 4.97 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V695.36l18.63-83.61c10.13-46.15 19.24-86.09 19.86-88.99 1.04-3.52 7.24 20.49 20.07 76.57l18.83 81.74 1.04 115.89c1.24 109.27 1.45 116.3 5.17 121.68 4.96 7.24 13.45 11.8 22.35 11.8 9.31 0 16.14-3.93 21.73-12.21l4.76-7.04V689.35l-33.94-152.72c-19.25-86.3-35.39-154.8-37.46-157.9-3.72-5.79-14.49-11.17-22.14-11.17-2.69 0-7.66 1.86-11.38 4.13z"
+});
+
+var friends_SvgFriends = function SvgFriends(props) {
+  return react_default.a.createElement("svg", friends_extends({
+    viewBox: "0 0 1000 1000"
+  }, props), friends_ref, friends_ref2);
+};
+
+/* harmony default export */ var friends = (friends_SvgFriends);
+// CONCATENATED MODULE: ./resources/img/navbar/logout.svg
+function logout_extends() { logout_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return logout_extends.apply(this, arguments); }
+
+
+
+var logout_ref =
+/*#__PURE__*/
+react_default.a.createElement("path", {
+  d: "M867.5 71.3H255c-67.7 0-122.5 54.8-122.5 122.5v122.5h61.3V193.8c0-33.8 27.4-61.3 61.3-61.3h612.5c33.8 0 61.3 27.4 61.3 61.3v612.5c0 33.8-27.4 61.3-61.3 61.3H255c-33.8 0-61.3-27.4-61.3-61.3V683.8h-61.3v122.5c0 67.7 54.8 122.5 122.5 122.5h612.5c67.7 0 122.5-54.8 122.5-122.5V193.8c.1-67.7-54.7-122.5-122.4-122.5zM541.1 691.2c-11.9 11.9-11.9 31.4 0 43.3 11.9 12 31.4 12 43.3 0l211.3-211.3c6.4-6.4 9.1-14.9 8.7-23.2.4-8.3-2.3-16.8-8.7-23.2L584.5 265.5c-12-12-31.4-12-43.3 0-11.9 11.9-11.9 31.3 0 43.3l160.6 160.5H40.6C23.7 469.4 10 483.1 10 500s13.7 30.6 30.6 30.6h661.1L541.1 691.2z"
+});
+
+var logout_SvgLogout = function SvgLogout(props) {
+  return react_default.a.createElement("svg", logout_extends({
+    viewBox: "0 0 1000 1000"
+  }, props), logout_ref);
+};
+
+/* harmony default export */ var logout = (logout_SvgLogout);
+// CONCATENATED MODULE: ./src/client/main/components/svgs/nav_bar_svgs.js
+
+
+
+
+
+
+
 
 /***/ }),
 /* 32 */
@@ -1883,7 +1880,7 @@ var $ = __webpack_require__(2);
 var fails = __webpack_require__(7);
 var isArray = __webpack_require__(63);
 var isObject = __webpack_require__(10);
-var toObject = __webpack_require__(20);
+var toObject = __webpack_require__(19);
 var toLength = __webpack_require__(42);
 var createProperty = __webpack_require__(100);
 var arraySpeciesCreate = __webpack_require__(85);
@@ -2299,7 +2296,7 @@ module.exports = Object.keys || function keys(O) {
 
 var bind = __webpack_require__(84);
 var IndexedObject = __webpack_require__(72);
-var toObject = __webpack_require__(20);
+var toObject = __webpack_require__(19);
 var toLength = __webpack_require__(42);
 var arraySpeciesCreate = __webpack_require__(85);
 
@@ -2578,7 +2575,7 @@ module.exports = Array.isArray || function isArray(arg) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var has = __webpack_require__(11);
-var toObject = __webpack_require__(20);
+var toObject = __webpack_require__(19);
 var sharedKey = __webpack_require__(45);
 var CORRECT_PROTOTYPE_GETTER = __webpack_require__(88);
 
@@ -5652,7 +5649,7 @@ $({ target: 'Object', stat: true, sham: !DESCRIPTORS }, {
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
-var toObject = __webpack_require__(20);
+var toObject = __webpack_require__(19);
 var nativeKeys = __webpack_require__(49);
 var fails = __webpack_require__(7);
 
@@ -8059,37 +8056,37 @@ try {
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.js
-var es_symbol = __webpack_require__(19);
+var es_symbol = __webpack_require__(18);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.description.js
-var es_symbol_description = __webpack_require__(21);
+var es_symbol_description = __webpack_require__(20);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.iterator.js
-var es_symbol_iterator = __webpack_require__(22);
+var es_symbol_iterator = __webpack_require__(21);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.iterator.js
 var es_array_iterator = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.create.js
-var es_object_create = __webpack_require__(23);
+var es_object_create = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.define-property.js
-var es_object_define_property = __webpack_require__(24);
+var es_object_define_property = __webpack_require__(23);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.get-prototype-of.js
-var es_object_get_prototype_of = __webpack_require__(25);
+var es_object_get_prototype_of = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.set-prototype-of.js
-var es_object_set_prototype_of = __webpack_require__(26);
+var es_object_set_prototype_of = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.to-string.js
-var es_object_to_string = __webpack_require__(27);
+var es_object_to_string = __webpack_require__(26);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.iterator.js
-var es_string_iterator = __webpack_require__(28);
+var es_string_iterator = __webpack_require__(27);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom-collections.iterator.js
-var web_dom_collections_iterator = __webpack_require__(29);
+var web_dom_collections_iterator = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(0);
@@ -8130,7 +8127,7 @@ var es_array_map = __webpack_require__(67);
 var es_function_bind = __webpack_require__(52);
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
-var es_function_name = __webpack_require__(30);
+var es_function_name = __webpack_require__(29);
 
 // EXTERNAL MODULE: ./src/client/utils/axiosSession.js
 var axiosSession = __webpack_require__(15);
@@ -8347,7 +8344,7 @@ var loading_spinner = __webpack_require__(37);
 var file_input = __webpack_require__(104);
 
 // EXTERNAL MODULE: ./src/client/utils/helperMethods.js
-var helperMethods = __webpack_require__(31);
+var helperMethods = __webpack_require__(30);
 
 // CONCATENATED MODULE: ./src/client/sign/components/sections/content/rightcontent/right_content.js
 

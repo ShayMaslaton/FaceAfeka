@@ -36,12 +36,6 @@ const RightNav = () => {
       </RightNavItem>
 
       <RightNavItem
-        name = { RightNavBarPagesEnum.Friends.name }
-        href = { RightNavBarPagesEnum.Friends.href } >
-        <RightNavBarPagesEnum.Friends.svg />
-      </RightNavItem>
-
-      <RightNavItem
         name = { RightNavBarPagesEnum.Logout.name }
         onClick = { logout } >
         <RightNavBarPagesEnum.Logout.svg />
